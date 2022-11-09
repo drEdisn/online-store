@@ -1,0 +1,32 @@
+.footer {
+  height: 3.75em;
+  background-color: $clr-black;
+}
+
+.footer__container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 1.25em;
+
+  &__item {
+    color: $clr-white;
+  }
+  
+  &__git {
+    font-weight: 500;
+    color: $clr-primary-5;
+  }
+}
+
+.rss {
+  width: 8.5em;
+  height: 2.5em;
+}
